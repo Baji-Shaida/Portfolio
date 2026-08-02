@@ -303,8 +303,49 @@ main{ padding-top: var(--lb-h); padding-bottom: var(--lb-h); }
 }
 
 /* ============================================================
-   SCENE 04 — CREDITS
+   SCENE 04 — DIRECTOR'S COMMENTARY
 ============================================================ */
+.commentary-list{ max-width: 760px; display:flex; flex-direction: column; }
+.commentary-row{
+  display:grid; grid-template-columns: 70px 1fr; gap: 24px;
+  padding: 28px 0; border-bottom: var(--edge);
+}
+.commentary-row:last-child{ border-bottom: none; }
+.ct-time{ color: var(--teal); font-size: 13px; padding-top: 4px; }
+.ct-body h3{
+  font-family: var(--display); font-weight: 700; font-size: 1.2rem; margin-bottom: 10px;
+}
+.ct-body p{ color: var(--ink-dim); font-size: .96rem; max-width: 620px; }
+
+@media (max-width: 600px){
+  .commentary-row{ grid-template-columns: 1fr; gap: 8px; }
+}
+
+/* ============================================================
+   SCENE 05 — LAURELS
+============================================================ */
+.laurel-grid{
+  display:flex; gap: 40px; flex-wrap: wrap;
+}
+.laurel-card{
+  display:flex; flex-direction: column; align-items:center; text-align:center;
+  width: 180px;
+}
+.laurel-svg{
+  width: 110px; height: 128px; color: var(--amber);
+}
+.laurel-num{ fill: var(--ink); font-size: 20px; }
+.laurel-card h3{
+  font-family: var(--display); font-weight: 600; font-size: 1rem; margin-top: 10px;
+}
+.laurel-org{ font-size: 11px; color: var(--ink-faint); margin-top: 4px; letter-spacing: .04em; }
+
+/* ============================================================
+   CREDITS — single column variant (education only)
+============================================================ */
+.credits-grid.single{ grid-template-columns: 1fr; max-width: 560px; }
+
+
 .credits-grid{
   display:grid; grid-template-columns: 1fr 1fr; gap: 60px;
 }

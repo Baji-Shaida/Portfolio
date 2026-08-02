@@ -25,7 +25,7 @@ updateTimecode();
 // Scroll reveal for scenes
 // ============================================================
 const revealTargets = document.querySelectorAll(
-  '.signal-copy, .rack, .filmstrip-wrap, .credits-grid, .contact h2, .contact-sub, .contact-actions'
+  '.signal-copy, .rack, .filmstrip-wrap, .commentary-list, .laurel-grid, .credits-grid, .contact h2, .contact-sub, .contact-actions'
 );
 revealTargets.forEach(el => el.classList.add('reveal'));
 
@@ -76,7 +76,7 @@ if(filmstrip && trackFill){
 // Active nav dot based on section in view
 // ============================================================
 const navLinks = document.querySelectorAll('.reelnav a');
-const sections = ['top','signal','instruments','reel','credits','contact']
+const sections = ['top','signal','instruments','reel','commentary','laurels','credits','contact']
   .map(id => document.getElementById(id))
   .filter(Boolean);
 
