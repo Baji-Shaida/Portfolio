@@ -3,426 +3,337 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shaik Baji Shaida — Data &amp; AI Reel</title>
+<title>Shaik Baji Shaida — Data Analyst</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="grain"></div>
-
-<!-- LETTERBOX BARS -->
-<div class="letterbox top">
-  <span class="lb-code" id="timecode">00:00:00:00</span>
-  <span class="lb-title">SHAIK BAJI SHAIDA — SHOWREEL</span>
-  <span class="lb-code">REC ●</span>
-</div>
-<div class="letterbox bottom">
-  <span class="lb-code">CAM 01 / DATA·AI</span>
-  <span class="lb-code" id="scrollpct">0%</span>
-</div>
-
-<!-- NAV -->
-<nav class="reelnav">
-  <a href="#signal" data-label="Signal">01</a>
-  <a href="#instruments" data-label="Instruments">02</a>
-  <a href="#reel" data-label="The Reel">03</a>
-  <a href="#commentary" data-label="Commentary">04</a>
-  <a href="#laurels" data-label="Laurels">05</a>
-  <a href="#credits" data-label="Credits">06</a>
-  <a href="#contact" data-label="Contact">07</a>
-</nav>
+<!-- REPORT TAB NAV -->
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-dot"></span>
+    Baji Shaida<span class="brand-sub">.report</span>
+  </div>
+  <nav class="tabs" id="tabs">
+    <a href="#overview" class="tab active">Overview</a>
+    <a href="#skills" class="tab">Skills</a>
+    <a href="#projects" class="tab">Projects</a>
+    <a href="#certifications" class="tab">Certifications</a>
+    <a href="#education" class="tab">Education</a>
+    <a href="#contact" class="tab">Contact</a>
+  </nav>
+  <a class="btn btn-primary btn-sm" href="Shaik_Baji_Shaida_DataAnalyst_Resume.docx" download>Download Résumé</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+</header>
 
 <main>
 
-  <!-- HERO -->
-  <section class="scene hero" id="top">
-    <div class="hero-grid">
-      <div class="hero-copy">
-        <p class="eyebrow mono">DATA ANALYST · AI/ML ENGINEER — IN TRAINING</p>
-        <h1 class="display-huge">
-          Shaik Baji<br><span class="outline">Shaida</span>
-        </h1>
-        <p class="hero-sub">
-          Final-year AI &amp; Data Science student who treats every dataset like unreleased
-          footage — cutting through noise to find the story: dashboards that read like plot
-          points, models that behave like characters, code that runs clean the first take.
+  <!-- OVERVIEW -->
+  <section class="section overview" id="overview">
+    <div class="overview-grid">
+      <div class="overview-copy">
+        <div class="avatar-row">
+          <img src="images/hero.png" alt="Shaik Baji Shaida" class="avatar">
+          <div>
+            <p class="eyebrow mono">DATA ANALYST · AI/ML ENTHUSIAST</p>
+            <h1 class="display-name">Shaik Baji Shaida</h1>
+          </div>
+        </div>
+        <p class="lede">
+          Final-year AI &amp; Data Science student who turns raw spreadsheets into decisions —
+          SQL, Power BI, and Python on one side, a growing set of applied ML projects on the
+          other. Looking for a Data Analyst internship or entry-level role where both halves
+          are useful.
         </p>
-        <div class="hero-actions">
-          <a class="btn btn-solid" href="#reel">Watch the reel ▸</a>
-          <a class="btn btn-line" href="https://github.com/Baji-Shaida" target="_blank" rel="noopener">github.com/Baji-Shaida</a>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="Shaik_Baji_Shaida_DataAnalyst_Resume.docx" download>Download Résumé</a>
+          <a class="btn btn-ghost" href="#projects">View Projects</a>
         </div>
-        <div class="hero-meta mono">
-          <span>JAGGAYYAPET, ANDHRA PRADESH, IN</span>
-          <span class="dot">•</span>
-          <span>WRAP DATE: JUNE 2027</span>
-        </div>
+        <ul class="contact-strip mono">
+          <li><a href="mailto:bajishaida348@gmail.com">bajishaida348@gmail.com</a></li>
+          <li><a href="tel:+918897699930">+91 88976 99930</a></li>
+          <li><a href="https://linkedin.com/in/bajishaida" target="_blank" rel="noopener">linkedin.com/in/bajishaida</a></li>
+          <li><a href="https://github.com/Baji-Shaida" target="_blank" rel="noopener">github.com/Baji-Shaida</a></li>
+        </ul>
       </div>
-      <div class="hero-frame">
-        <div class="slate">
-          <span>DEPT. DATA/AI</span><span>TAKE 01</span>
-        </div>
-        <img src="images/hero.png" alt="Shaik Baji Shaida portrait" class="hero-portrait">
-        <div class="frame-count mono">
-          <span>f/2.8</span><span>ISO 200</span><span>24fps</span>
-        </div>
-      </div>
-    </div>
-    <div class="scroll-cue mono">SCROLL TO ROLL FILM ▾</div>
-  </section>
 
-  <!-- SCENE 01 — SIGNAL / ABOUT -->
-  <section class="scene" id="signal">
-    <div class="scene-head">
-      <span class="scene-tag mono">SCENE 01</span>
-      <h2 class="display-lg">The Signal</h2>
-      <span class="scene-line"></span>
-    </div>
-    <div class="signal-grid">
-      <div class="signal-copy">
-        <p>
-          I'm a final-year B.Tech student in AI &amp; Data Science at
-          <strong>D.V.R. &amp; Dr. H.S. MIC College of Technology</strong>, carrying an
-          8.3 CGPA into a job market that moves faster than most syllabi can keep up with —
-          so I built my own curriculum on top of it: SQL until it's second language, Power BI
-          dashboards that executives actually read, and enough Python to bend pandas to my will.
-        </p>
-        <p>
-          What I'm chasing is the overlap most people leave on the table — the analyst who can
-          also wire up an LLM pipeline, and the AI builder who never forgets that a model is
-          only as good as the query that feeds it. Every project below is proof of that overlap,
-          built from scratch, run on real data, zero shortcuts.
-        </p>
-        <div class="stat-row">
-          <div class="stat">
-            <span class="stat-num mono">8.3</span>
-            <span class="stat-label">CGPA / 10</span>
+      <div class="kpi-panel">
+        <div class="kpi-panel-head">
+          <span class="kpi-panel-title">Profile Overview</span>
+          <span class="kpi-panel-tag mono">LIVE</span>
+        </div>
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <span class="kpi-label">CGPA</span>
+            <span class="kpi-value">8.3<span class="kpi-unit">/10</span></span>
+            <svg class="spark" viewBox="0 0 80 24"><polyline points="0,18 12,14 24,16 36,9 48,11 60,5 72,7 80,3" /></svg>
           </div>
-          <div class="stat">
-            <span class="stat-num mono">4</span>
-            <span class="stat-label">Shipped projects</span>
+          <div class="kpi-card">
+            <span class="kpi-label">Projects Shipped</span>
+            <span class="kpi-value">5</span>
+            <div class="bars"><span style="height:40%"></span><span style="height:65%"></span><span style="height:50%"></span><span style="height:85%"></span><span style="height:100%"></span></div>
           </div>
-          <div class="stat">
-            <span class="stat-num mono">3</span>
-            <span class="stat-label">Certifications</span>
+          <div class="kpi-card">
+            <span class="kpi-label">Certifications</span>
+            <span class="kpi-value">4</span>
+            <div class="dots"><span></span><span></span><span></span><span></span></div>
           </div>
-          <div class="stat">
-            <span class="stat-num mono">’27</span>
-            <span class="stat-label">Graduation</span>
+          <div class="kpi-card">
+            <span class="kpi-label">Records Analyzed</span>
+            <span class="kpi-value">17.7K<span class="kpi-unit">+</span></span>
+            <svg class="spark accent2" viewBox="0 0 80 24"><polyline points="0,20 14,17 28,18 42,10 56,12 70,4 80,6" /></svg>
           </div>
         </div>
+        <div class="kpi-panel-foot mono">Updated Aug 2026 · Jaggayyapet, AP, IN</div>
       </div>
     </div>
   </section>
 
-  <!-- SCENE 02 — INSTRUMENTS / SKILLS -->
-  <section class="scene" id="instruments">
-    <div class="scene-head">
-      <span class="scene-tag mono">SCENE 02</span>
-      <h2 class="display-lg">The Instruments</h2>
-      <span class="scene-line"></span>
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-head">
+      <h2>Skills</h2>
+      <p>The toolkit behind the projects below.</p>
     </div>
-    <p class="scene-intro">
-      Every editor has a rack of tools they reach for without thinking. Here's mine — read
-      left to right as a signal chain, not a ranking.
-    </p>
 
-    <div class="rack">
-      <div class="rack-row" data-level="92">
-        <span class="rack-name">SQL</span>
-        <span class="rack-tag mono">query &amp; joins</span>
-        <div class="rack-bar"><div class="rack-fill"></div></div>
+    <div class="skill-groups">
+      <div class="skill-group">
+        <h3><span class="chip-dot c-teal"></span>Data Analysis &amp; BI</h3>
+        <div class="chip-row">
+          <span class="chip">SQL</span>
+          <span class="chip">Power BI</span>
+          <span class="chip">Excel (Pivot Tables, VLOOKUP, Power Query)</span>
+          <span class="chip">EDA</span>
+          <span class="chip">Data Cleaning</span>
+          <span class="chip">Data Visualization</span>
+          <span class="chip">KPI Design</span>
+        </div>
       </div>
-      <div class="rack-row" data-level="88">
-        <span class="rack-name">Python</span>
-        <span class="rack-tag mono">pandas · numpy · sklearn</span>
-        <div class="rack-bar"><div class="rack-fill"></div></div>
+      <div class="skill-group">
+        <h3><span class="chip-dot c-amber"></span>Programming</h3>
+        <div class="chip-row">
+          <span class="chip">Python</span>
+          <span class="chip">Pandas</span>
+          <span class="chip">NumPy</span>
+          <span class="chip">Matplotlib</span>
+          <span class="chip">Seaborn</span>
+          <span class="chip">Scikit-learn</span>
+        </div>
       </div>
-      <div class="rack-row" data-level="85">
-        <span class="rack-name">Power BI</span>
-        <span class="rack-tag mono">DAX · dashboards</span>
-        <div class="rack-bar"><div class="rack-fill"></div></div>
+      <div class="skill-group">
+        <h3><span class="chip-dot c-violet"></span>Tools &amp; Platforms</h3>
+        <div class="chip-row">
+          <span class="chip">Git</span>
+          <span class="chip">GitHub</span>
+          <span class="chip">VS Code</span>
+          <span class="chip">Jupyter Notebook</span>
+          <span class="chip">MongoDB (Basics)</span>
+        </div>
       </div>
-      <div class="rack-row" data-level="80">
-        <span class="rack-name">Excel</span>
-        <span class="rack-tag mono">pivot · modeling</span>
-        <div class="rack-bar"><div class="rack-fill"></div></div>
-      </div>
-      <div class="rack-row" data-level="78">
-        <span class="rack-name">Matplotlib / Seaborn</span>
-        <span class="rack-tag mono">visual storytelling</span>
-        <div class="rack-bar"><div class="rack-fill"></div></div>
-      </div>
-      <div class="rack-row" data-level="70">
-        <span class="rack-name">LLM Integration</span>
-        <span class="rack-tag mono">prompting · structured outputs</span>
-        <div class="rack-bar"><div class="rack-fill"></div></div>
-      </div>
-      <div class="rack-row" data-level="62">
-        <span class="rack-name">MongoDB</span>
-        <span class="rack-tag mono">document stores, basics</span>
-        <div class="rack-bar"><div class="rack-fill"></div></div>
+      <div class="skill-group">
+        <h3><span class="chip-dot c-coral"></span>Core Concepts</h3>
+        <div class="chip-row">
+          <span class="chip">Statistics</span>
+          <span class="chip">A/B Testing</span>
+          <span class="chip">Feature Engineering</span>
+          <span class="chip">Data Storytelling</span>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- SCENE 03 — THE REEL / PROJECTS -->
-  <section class="scene" id="reel">
-    <div class="scene-head">
-      <span class="scene-tag mono">SCENE 03</span>
-      <h2 class="display-lg">The Reel</h2>
-      <span class="scene-line"></span>
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-head">
+      <h2>Projects</h2>
+      <p>Data analytics work first — a couple of applied-AI builds on the side.</p>
     </div>
-    <p class="scene-intro">
-      Four cuts, one thread — turning raw data and raw models into something a stranger
-      could open and immediately understand. Drag or scroll to run the strip.
-    </p>
 
-    <div class="filmstrip-wrap">
-      <div class="filmstrip" id="filmstrip">
+    <div class="project-grid">
 
-        <article class="film-cell">
-          <div class="sprockets top mini"><span></span><span></span><span></span><span></span><span></span><span></span></div>
-          <div class="cell-body">
-            <span class="cell-tag mono">AI · MISINFORMATION</span>
-            <h3>TruthLens — Fake News Detector</h3>
-            <p>An AI-powered web app that scores any article for credibility — an LLM
-            breaks down source quality, evidence strength, and bias level, flags red-flag
-            language, and returns a verdict with fact-check notes, all logged to a
-            searchable history dashboard.</p>
-            <div class="cell-stack mono">React · Framer Motion · LLM Integration</div>
-            <a class="cell-link" href="https://github.com/Baji-Shaida/fake-news-detector" target="_blank" rel="noopener">View on GitHub ▸</a>
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-kicker mono">POWER BI · EXCEL · SQL</span>
+          <span class="project-year mono">2026</span>
+        </div>
+        <h3>Sales Performance Dashboard</h3>
+        <p>Interactive Power BI dashboard analyzing sales, revenue, and profit trends across
+        5 regions and 5 product categories, covering $174K+ in total revenue. KPIs include
+        YoY growth, profit margin, and top-performing SKUs with dynamic slicers.</p>
+        <div class="project-tags">
+          <span class="tag t-teal">5 regions</span>
+          <span class="tag t-teal">$174K+ revenue</span>
+          <span class="tag t-teal">Power Query ETL</span>
+        </div>
+        <div class="project-actions">
+          <a class="btn btn-outline btn-sm" href="https://github.com/Baji-Shaida/Sales-Dashboard" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-kicker mono">PYTHON · PANDAS · SEABORN</span>
+          <span class="project-year mono">2026</span>
+        </div>
+        <h3>Netflix Catalog — EDA</h3>
+        <p>Explored 7,787 Netflix titles to surface genre popularity, content-addition
+        trends by year, and country-wise distribution. Engineered date-based features and
+        built 7 visualizations — movies make up 69% of the catalog, additions peaked in 2019.</p>
+        <div class="project-tags">
+          <span class="tag t-amber">7,787 titles</span>
+          <span class="tag t-amber">7 visualizations</span>
+          <span class="tag t-amber">69% movies</span>
+        </div>
+        <div class="project-actions">
+          <a class="btn btn-outline btn-sm" href="https://github.com/Baji-Shaida/Netflix-Data-Analytics" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-kicker mono">PYTHON · SCIKIT-LEARN</span>
+          <span class="project-year mono">2026</span>
+        </div>
+        <h3>Movie Recommendation System</h3>
+        <p>Personalized recommender built on 10,000+ rating records, combining collaborative
+        and content-based filtering. Evaluated with RMSE and Precision@K to validate
+        recommendation quality before generating top-N picks per user.</p>
+        <div class="project-tags">
+          <span class="tag t-violet">10K+ ratings</span>
+          <span class="tag t-violet">RMSE · Precision@K</span>
+        </div>
+        <div class="project-actions">
+          <a class="btn btn-outline btn-sm" href="https://github.com/Baji-Shaida/Movie-Recommendation-System" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="also-built">
+      <span class="also-built-label mono">ALSO BUILT — APPLIED AI SIDE PROJECTS</span>
+      <div class="also-grid">
+        <article class="mini-card">
+          <h4>TruthLens — Fake News Detector</h4>
+          <p>AI-scored credibility checker: source quality, bias level, and red-flag language,
+          via an LLM-backed web app with a searchable history dashboard.</p>
+          <div class="project-actions">
+            <a class="btn btn-outline btn-sm" href="https://github.com/Baji-Shaida/fake-news-detector" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
-          <div class="sprockets bottom mini"><span></span><span></span><span></span><span></span><span></span><span></span></div>
         </article>
-
-        <article class="film-cell">
-          <div class="sprockets top mini"><span></span><span></span><span></span><span></span><span></span><span></span></div>
-          <div class="cell-body">
-            <span class="cell-tag mono">ML · RECOMMENDER</span>
-            <h3>Movie Recommendation System</h3>
-            <p>A hybrid recommender built on TF-IDF and Truncated SVD over the MovieLens 1M
-            dataset, compressed to a sub-2MB precomputed model and shipped as a live
-            Streamlit app.</p>
-            <div class="cell-stack mono">TF-IDF · SVD · MovieLens 1M · Streamlit</div>
-            <a class="cell-link" href="https://github.com/Baji-Shaida/Movie-Recommendation-System" target="_blank" rel="noopener">View on GitHub ▸</a>
+        <article class="mini-card">
+          <h4>The Dev's Coffee Stand</h4>
+          <p>A "Coffee Tip Jar" dApp on the Stellar network — executed a real testnet XLM
+          transaction end to end. Level 1 / White Belt, cleared.</p>
+          <div class="project-actions">
+            <a class="btn btn-outline btn-sm" href="https://github.com/Baji-Shaida/Coffee-tip-jar" target="_blank" rel="noopener">GitHub ↗</a>
           </div>
-          <div class="sprockets bottom mini"><span></span><span></span><span></span><span></span><span></span><span></span></div>
         </article>
-
-        <article class="film-cell">
-          <div class="sprockets top mini"><span></span><span></span><span></span><span></span><span></span><span></span></div>
-          <div class="cell-body">
-            <span class="cell-tag mono">EDA · STORYTELLING</span>
-            <h3>Netflix Catalog EDA</h3>
-            <p>A full exploratory pass across 7,787 titles from the TidyTuesday Netflix
-            dataset — genre drift, release-year patterns, and content-mix shifts, all in a
-            fully executed Jupyter notebook with real findings, not filler.</p>
-            <div class="cell-stack mono">Pandas · Seaborn · Jupyter</div>
-            <a class="cell-link" href="https://github.com/Baji-Shaida/Netflix-Data-Analytics" target="_blank" rel="noopener">View on GitHub ▸</a>
-          </div>
-          <div class="sprockets bottom mini"><span></span><span></span><span></span><span></span><span></span><span></span></div>
-        </article>
-
-        <article class="film-cell">
-          <div class="sprockets top mini"><span></span><span></span><span></span><span></span><span></span><span></span></div>
-          <div class="cell-body">
-            <span class="cell-tag mono">WEB3 · STELLAR</span>
-            <h3>The Dev's Coffee Stand</h3>
-            <p>A "Coffee Tip Jar" dApp built in React for the Stellar blockchain challenge —
-            executed a real testnet XLM transaction end to end. Level 1 / White Belt, cleared.</p>
-            <div class="cell-stack mono">React · Stellar SDK · Testnet</div>
-            <a class="cell-link" href="https://github.com/Baji-Shaida/Coffee-tip-jar" target="_blank" rel="noopener">View on GitHub ▸</a>
-          </div>
-          <div class="sprockets bottom mini"><span></span><span></span><span></span><span></span><span></span><span></span></div>
-        </article>
-
-      </div>
-      <div class="filmstrip-track mono">
-        <span class="track-fill" id="trackFill"></span>
       </div>
     </div>
   </section>
 
-  <!-- SCENE 04 — DIRECTOR'S COMMENTARY -->
-  <section class="scene" id="commentary">
-    <div class="scene-head">
-      <span class="scene-tag mono">SCENE 04</span>
-      <h2 class="display-lg">Director's Commentary</h2>
-      <span class="scene-line"></span>
+  <!-- CERTIFICATIONS -->
+  <section class="section" id="certifications">
+    <div class="section-head">
+      <h2>Certifications</h2>
+      <p>Formal backing for the skills above.</p>
     </div>
-    <p class="scene-intro">
-      Turn the commentary track on. Here's the context behind each cut in the reel —
-      what the problem actually was, and why I built it the way I did.
-    </p>
-
-    <div class="commentary-list">
-      <div class="commentary-row">
-        <span class="ct-time mono">00:00</span>
-        <div class="ct-body">
-          <h3>TruthLens</h3>
-          <p>
-            Misinformation spreads faster than fact-checkers can keep up, so I wanted to see
-            if an LLM could act as a first-pass filter. TruthLens takes any article and
-            breaks it down into a credibility score, source-quality read, and flagged
-            language patterns — the goal wasn't a black-box verdict, but a transparent
-            reasoning trail a reader can actually check for themselves.
-          </p>
+    <div class="cert-row">
+      <div class="cert-card">
+        <span class="cert-icon">◆</span>
+        <div>
+          <h4>AI Fundamentals</h4>
+          <span class="cert-meta mono">IBM · Feb 2026</span>
         </div>
       </div>
-      <div class="commentary-row">
-        <span class="ct-time mono">00:04</span>
-        <div class="ct-body">
-          <h3>Movie Recommendation System</h3>
-          <p>
-            Most recommender tutorials stop at "cosine similarity on a small CSV." I pushed
-            this one to the full MovieLens 1M dataset and cared more about the deployment
-            constraint than the model itself — compressing the whole hybrid TF-IDF + SVD
-            pipeline down to under 2MB so it could run instantly inside a Streamlit app
-            instead of needing a server to do the heavy lifting.
-          </p>
+      <div class="cert-card">
+        <span class="cert-icon">◆</span>
+        <div>
+          <h4>SQL</h4>
+          <span class="cert-meta mono">HackerRank · Feb 2025</span>
         </div>
       </div>
-      <div class="commentary-row">
-        <span class="ct-time mono">00:08</span>
-        <div class="ct-body">
-          <h3>Netflix Catalog EDA</h3>
-          <p>
-            This one was about restraint — 7,787 titles is enough data to tell any story you
-            want if you go in with a conclusion already picked. I forced myself to let the
-            genre and release-year patterns speak first, then wrote the findings around what
-            the notebook actually showed, not what made the best headline.
-          </p>
+      <div class="cert-card">
+        <span class="cert-icon">◆</span>
+        <div>
+          <h4>Python</h4>
+          <span class="cert-meta mono">HackerRank · Feb 2025</span>
         </div>
       </div>
-      <div class="commentary-row">
-        <span class="ct-time mono">00:12</span>
-        <div class="ct-body">
-          <h3>The Dev's Coffee Stand</h3>
-          <p>
-            My first real step into Web3 — a tip jar dApp on the Stellar network, built to
-            actually understand how testnet transactions, wallets, and smart contract calls
-            work under the hood, not just read about them. Cleared Level 1 / White Belt with
-            a real XLM transaction executed end to end.
-          </p>
+      <div class="cert-card">
+        <span class="cert-icon">◆</span>
+        <div>
+          <h4>Data Analytics</h4>
+          <span class="cert-meta mono">Great Learning Academy · Jul 2026</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SCENE 05 — LAURELS / CERTIFICATIONS -->
-  <section class="scene" id="laurels">
-    <div class="scene-head">
-      <span class="scene-tag mono">SCENE 05</span>
-      <h2 class="display-lg">Laurels</h2>
-      <span class="scene-line"></span>
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="section-head">
+      <h2>Education</h2>
     </div>
-    <p class="scene-intro">
-      Official selections — the certifications that backed up the skills in Scene 02.
-    </p>
-
-    <div class="laurel-grid">
-      <div class="laurel-card">
-        <svg class="laurel-svg" viewBox="0 0 120 140" xmlns="http://www.w3.org/2000/svg">
-          <g class="laurel-leaf-l">
-            <path d="M55 125 C30 115, 15 95, 15 65 C15 45, 25 28, 38 18" fill="none" stroke="currentColor" stroke-width="2.5"/>
-            <path d="M20 60 L10 55 M23 48 L13 42 M28 37 L19 30 M35 27 L27 19 M44 20 L37 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </g>
-          <g class="laurel-leaf-r">
-            <path d="M65 125 C90 115, 105 95, 105 65 C105 45, 95 28, 82 18" fill="none" stroke="currentColor" stroke-width="2.5"/>
-            <path d="M100 60 L110 55 M97 48 L107 42 M92 37 L101 30 M85 27 L93 19 M76 20 L83 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </g>
-          <text x="60" y="72" text-anchor="middle" class="laurel-num mono">01</text>
-        </svg>
-        <h3>AI Fundamentals</h3>
-        <span class="laurel-org mono">IBM</span>
-      </div>
-
-      <div class="laurel-card">
-        <svg class="laurel-svg" viewBox="0 0 120 140" xmlns="http://www.w3.org/2000/svg">
-          <g class="laurel-leaf-l">
-            <path d="M55 125 C30 115, 15 95, 15 65 C15 45, 25 28, 38 18" fill="none" stroke="currentColor" stroke-width="2.5"/>
-            <path d="M20 60 L10 55 M23 48 L13 42 M28 37 L19 30 M35 27 L27 19 M44 20 L37 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </g>
-          <g class="laurel-leaf-r">
-            <path d="M65 125 C90 115, 105 95, 105 65 C105 45, 95 28, 82 18" fill="none" stroke="currentColor" stroke-width="2.5"/>
-            <path d="M100 60 L110 55 M97 48 L107 42 M92 37 L101 30 M85 27 L93 19 M76 20 L83 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </g>
-          <text x="60" y="72" text-anchor="middle" class="laurel-num mono">02</text>
-        </svg>
-        <h3>SQL &amp; Python</h3>
-        <span class="laurel-org mono">HackerRank</span>
-      </div>
-
-      <div class="laurel-card">
-        <svg class="laurel-svg" viewBox="0 0 120 140" xmlns="http://www.w3.org/2000/svg">
-          <g class="laurel-leaf-l">
-            <path d="M55 125 C30 115, 15 95, 15 65 C15 45, 25 28, 38 18" fill="none" stroke="currentColor" stroke-width="2.5"/>
-            <path d="M20 60 L10 55 M23 48 L13 42 M28 37 L19 30 M35 27 L27 19 M44 20 L37 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </g>
-          <g class="laurel-leaf-r">
-            <path d="M65 125 C90 115, 105 95, 105 65 C105 45, 95 28, 82 18" fill="none" stroke="currentColor" stroke-width="2.5"/>
-            <path d="M100 60 L110 55 M97 48 L107 42 M92 37 L101 30 M85 27 L93 19 M76 20 L83 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          </g>
-          <text x="60" y="72" text-anchor="middle" class="laurel-num mono">03</text>
-        </svg>
-        <h3>Data Analytics</h3>
-        <span class="laurel-org mono">Great Learning Academy</span>
-      </div>
-    </div>
-  </section>
-  <!-- SCENE 06 — CREDITS -->
-  <section class="scene" id="credits">
-    <div class="scene-head">
-      <span class="scene-tag mono">SCENE 06</span>
-      <h2 class="display-lg">Credits</h2>
-      <span class="scene-line"></span>
-    </div>
-
-    <div class="credits-grid single">
-      <div class="credits-col">
-        <h3 class="mono col-title">EDUCATION</h3>
-        <div class="credit-line">
-          <span class="c-role">B.Tech, AI &amp; Data Science</span>
-          <span class="c-org">D.V.R. &amp; Dr. H.S. MIC College of Technology</span>
-          <span class="c-meta mono">2023 — 2027 · CGPA 8.3</span>
+    <div class="edu-list">
+      <div class="edu-row">
+        <div class="edu-main">
+          <h4>B.Tech, Computer Science — Specialization in Data Science</h4>
+          <span class="edu-org">D.V.R. &amp; Dr. H.S. MIC College of Technology</span>
         </div>
-        <div class="credit-line">
-          <span class="c-role">Intermediate</span>
-          <span class="c-org">Shri Lakshya Junior College</span>
-          <span class="c-meta mono">81.3%</span>
+        <div class="edu-side mono">
+          <span>Sep 2023 – Jun 2027</span>
+          <span class="edu-score">CGPA 8.3/10</span>
         </div>
-        <div class="credit-line">
-          <span class="c-role">Schooling</span>
-          <span class="c-org">J.D.A.V. Public School</span>
-          <span class="c-meta mono">Grade A</span>
+      </div>
+      <div class="edu-row">
+        <div class="edu-main">
+          <h4>Intermediate (MPC)</h4>
+          <span class="edu-org">Shri Lakshya Junior College</span>
+        </div>
+        <div class="edu-side mono">
+          <span>Aug 2021 – May 2023</span>
+          <span class="edu-score">81.3%</span>
+        </div>
+      </div>
+      <div class="edu-row">
+        <div class="edu-main">
+          <h4>Schooling</h4>
+          <span class="edu-org">J.D.A.V. Public School</span>
+        </div>
+        <div class="edu-side mono">
+          <span></span>
+          <span class="edu-score">91%</span>
         </div>
       </div>
     </div>
   </section>
 
   <!-- CONTACT -->
-  <section class="scene contact" id="contact">
-    <div class="fade-out"></div>
-    <span class="scene-tag mono">SCENE 07 — FADE TO CONTACT</span>
-    <h2 class="display-huge center">Let's cut<br>something together.</h2>
-    <p class="contact-sub">
-      Open to Data Analyst and AI-adjacent internships / entry-level roles.
-      Based in Jaggayyapet, Andhra Pradesh — happy to work remote or relocate.
-    </p>
-    <div class="contact-actions">
-      <a class="btn btn-solid" href="https://github.com/Baji-Shaida" target="_blank" rel="noopener">GitHub ▸</a>
-      <a class="btn btn-line" href="mailto:bajishaida348@gmail.com">Email me ▸</a>
+  <section class="section contact-section" id="contact">
+    <div class="contact-panel">
+      <h2>Let's talk data.</h2>
+      <p>Open to Data Analyst and AI-adjacent internships / entry-level roles. Based in
+      Jaggayyapet, Andhra Pradesh — happy to work remote or relocate.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="mailto:bajishaida348@gmail.com">Email Me</a>
+        <a class="btn btn-ghost" href="Shaik_Baji_Shaida_DataAnalyst_Resume.docx" download>Download Résumé</a>
+      </div>
+      <ul class="contact-strip mono center">
+        <li><a href="tel:+918897699930">+91 88976 99930</a></li>
+        <li><a href="https://linkedin.com/in/bajishaida" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/Baji-Shaida" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
     </div>
-    <p class="edit-note mono">— replace the email above with yours before publishing —</p>
   </section>
 
 </main>
 
-<footer class="endslate mono">
-  <span>© 2026 SHAIK BAJI SHAIDA</span>
-  <span>END OF REEL</span>
+<footer class="sitefoot mono">
+  <span>© 2026 Shaik Baji Shaida</span>
+  <span>Built with data, styled like one too.</span>
 </footer>
 
 <script src="script.js"></script>
